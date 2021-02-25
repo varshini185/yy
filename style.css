@@ -1,78 +1,60 @@
 *{
-padding:0;
-margin:0;
-}
-body{
-  background-image:url('bac5.jpg');
-  text-align:center;
-
-background-position:center;
-font-family:sans-serif;
-}
-.menu-bar{
-  background:rgb(0,0,0);
-  text-align:center;
-}
-.menu-bar ul{
-  display:inline-flex;
-  list-style:none;
-  color:#fff;
-}
-.menu-bar ul li{
-  width:120px;
-  margin:15px;
-  padding:15px;
-}
-.menu-bar ul li a{
-  text-decoration:none;
-  color:#fff;
-}
-.menu-bar .fa{
-  margin-right:8px;
-}
-.sub-menu-1{
-  display:none;
-
-}
-.menu-bar ul li:hover .sub-menu-1{
-  display:block;
-  position:absolute;
-  background:black;
-  margin-top:15px;
-  margin-left:-15px;
-}
-.menu-bar ul li:hover .sub-menu-1 ul{
-  display:block;
-margin:10px;}
-.menu-bar ul li:hover .sub-menu-1 ul li{
-  width:150px;
-  padding:10px;
-  border-bottom:1px dotted #fff;
-  background:transparent;
-  border-radius:0;
-  text-align:left;
-}
-.menu-bar ul li:hover .sub-menu-1 ul li:last-child{
-  border-bottom:none;}
-  .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
-    color:brown;
-  }
-  .section-1-heading{
-    font-size:6rem;
-    font-width:700;
-    color:red;
-    text-shadow:0.2rem 0.2rem 1rem #555;
-    font-family: "Times New Roman";
-    margin-bottom:5rem;
-    letter-spacing:1rem;
+    padding:0;
+    margin:0;
+    }
+    body{
+      background-image:url('bac5.jpg');
+      text-align:center;
     
-  }
-  .section-2-heading{
-    font-size:6rem;
-    font-width:700;
-    color:red;
-    text-shadow:0.2rem 0.2rem 1rem #555;
-    font-family: "Times New Roman";
-    margin-bottom:5rem;
-    letter-spacing:1rem;text-align:center;
-  }
+    background-position:center;
+    font-family:sans-serif;
+    }
+    .menu-bar{
+      background:rgb(0,0,0);
+      text-align:center;
+    }
+    .menu-bar ul{
+      display:inline-flex;
+      list-style:none;
+      color:#fff;
+    }
+    .menu-bar ul li{
+      width:120px;
+      margin:15px;
+      padding:15px;
+    }
+    .menu-bar ul li a{
+      text-decoration:none;
+      color:#fff;
+    }
+    .menu-bar .fa{
+      margin-right:5px;
+    }
+    .sub-menu-1{
+      display:none;
+    
+    }
+    .menu-bar ul li:hover .sub-menu-1{
+      display:block;
+      position:absolute;
+      background:black;
+      margin-top:15px;
+      margin-left:-15px;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul{
+      display:block;
+    margin:10px;}
+    .menu-bar ul li:hover .sub-menu-1 ul li{
+      width:150px;
+      padding:10px;
+      border-bottom:1px dotted #fff;
+      background:transparent;
+      border-radius:0;
+      text-align:left;
+    }
+    .menu-bar ul li:hover .sub-menu-1 ul li:last-child{
+      border-bottom:none;}
+      .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+        color:brown;
+      }
+      
